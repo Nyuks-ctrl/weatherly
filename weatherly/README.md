@@ -1,8 +1,8 @@
-# 🌦️ Weatherly
+# Weatherly
 
-A modern, startup-grade weather application built with React and Capacitor.
+A modern, simple, vibe coded weather application built with React and Capacitor.
 
-## ✨ Features
+## Features
 - Auto location detection
 - City search
 - Animated weather icons
@@ -11,19 +11,21 @@ A modern, startup-grade weather application built with React and Capacitor.
 - Dark, modern UI
 - Android & iOS support
 
-## 🛠 Tech Stack
+## Tech Stack
 - React + Vite
 - Open-Meteo API
 - Framer Motion
 - Capacitor
 
-## 📱 Platforms
+## Platforms
 - Web
 - Android
 - iOS
 
-## 🚀 Screenshots
-(Add screenshots here)
+## Screenshots
+<img width="597" height="623" alt="image" src="https://github.com/user-attachments/assets/a1b9ff99-2415-42ab-878a-338601d9ba58" />
 
-## 👨‍💻 Author
-Your Name
+
+
+##Author
+Comfort Minyuku
