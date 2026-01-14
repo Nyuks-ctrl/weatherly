@@ -1,0 +1,98 @@
+:root {
+--bg: #0b0f14;
+--card: #121821;
+--text: #e5e7eb;
+--muted: #9ca3af;
+--accent: #38bdf8;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', system-ui, sans-serif;
+}
+
+
+body {
+background: radial-gradient(circle at top, #111827, #020617);
+color: var(--text);
+}
+
+
+.app {
+max-width: 420px;
+margin: auto;
+padding: 20px;
+}
+
+
+.card {
+background: linear-gradient(180deg, #0f172a, #020617);
+border-radius: 24px;
+padding: 20px;
+box-shadow: 0 30px 60px rgba(0,0,0,.5);
+}
+
+.search {
+width: 100%;
+padding: 14px 16px;
+border-radius: 14px;
+background: #020617;
+border: 1px solid #1f2937;
+color: var(--text);
+font-size: 1rem;
+}
+
+
+.search:focus {
+outline: none;
+border-color: var(--accent);
+}
+
+.scroll {
+display: flex;
+gap: 14px;
+overflow-x: auto;
+padding-bottom: 10px;
+}
+
+
+.scroll::-webkit-scrollbar {
+height: 6px;
+}
+
+
+.scroll::-webkit-scrollbar-thumb {
+background: #1e293b;
+border-radius: 20px;
+}
+
+
+.day {
+min-width: 80px;
+text-align: center;
+padding: 12px;
+border-radius: 16px;
+background: #020617;
+}
+
+.hour {
+  min-width: 72px;
+  background: #020617;
+  border-radius: 16px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.hour-time {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.hour-temp {
+  font-weight: 600;
+  margin-top: 6px;
+}
